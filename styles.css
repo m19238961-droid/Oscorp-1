@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('banner.jpg.jpg');
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 600px;
+    margin-left: 217px;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+   
+}
+
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+.project, .team-member {
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#sede, #equipo, #visitas {
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 15px;
+}
